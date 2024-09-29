@@ -6,8 +6,10 @@ using LookupDictionaryOptimized;
 
 //BenchmarkRunner.Run<BenchmarkLookupsDictionaries>();
 
-DemoAlternateLookup.RunDemo();
+//DemoAlternateLookup.RunDemo();
+
+DemoAlternateLookupV2.RunGenericDemo();
 
 Console.WriteLine("Hit the any key to continue..");
 
-Console.ReadKey();
+Console.Read();

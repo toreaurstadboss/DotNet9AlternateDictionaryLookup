@@ -6,7 +6,14 @@
         public Person(string firstName, string lastName)
         {
             FirstName = firstName;
-            LastName = lastName;            
+            LastName = lastName;
+        }
+
+        public Person()
+        {
+            FirstName = string.Empty;
+            LastName = string.Empty;
+            Id = Guid.Empty;
         }
 
         public string FirstName { get; set; }

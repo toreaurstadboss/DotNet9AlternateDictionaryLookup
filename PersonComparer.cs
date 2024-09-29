@@ -5,7 +5,7 @@ namespace LookupDictionaryOptimized
 {
     internal class PersonComparer : IEqualityComparer<Person>, IAlternateEqualityComparer<Guid, Person>
     {
-       
+
         private PersonComparer()
         {
         }
@@ -25,4 +25,6 @@ namespace LookupDictionaryOptimized
 
         public int GetHashCode(Guid alternate) => alternate.GetHashCode();
     }
+
+
 }
